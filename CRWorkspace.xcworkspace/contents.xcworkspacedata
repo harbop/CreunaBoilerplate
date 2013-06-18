@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Project/../Features Wishlist.rtf">
+   </FileRef>
+   <FileRef
       location = "group:Project/Project.xcodeproj">
    </FileRef>
 </Workspace>
