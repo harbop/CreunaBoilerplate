@@ -25,6 +25,23 @@
 		E75A6D41176FA6F100C95A8B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E75A6D3D176FA6F100C95A8B /* Default.png */; };
 		E75A6D42176FA6F100C95A8B /* Default@2x-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = E75A6D3E176FA6F100C95A8B /* Default@2x-568h.png */; };
 		E75A6D43176FA6F100C95A8B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E75A6D3F176FA6F100C95A8B /* Default@2x.png */; };
+		E75A6D4F17703ED300C95A8B /* CreunaLockoutLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E75A6D4A17703ED300C95A8B /* CreunaLockoutLoader.m */; };
+		E75A6D5017703ED300C95A8B /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E75A6D4E17703ED300C95A8B /* NSString+MD5.m */; };
+		E75A6D7317703F5500C95A8B /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = E75A6D5517703F5500C95A8B /* Account.m */; };
+		E75A6D7417703F5500C95A8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75A6D5717703F5500C95A8B /* AppDelegate.m */; };
+		E75A6D7517703F5500C95A8B /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = E75A6D5917703F5500C95A8B /* Customer.m */; };
+		E75A6D7617703F5500C95A8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E75A6D5A17703F5500C95A8B /* InfoPlist.strings */; };
+		E75A6D7717703F5500C95A8B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75A6D5C17703F5500C95A8B /* MainStoryboard_iPad.storyboard */; };
+		E75A6D7817703F5500C95A8B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75A6D5E17703F5500C95A8B /* MainStoryboard_iPhone.storyboard */; };
+		E75A6D7917703F5500C95A8B /* JsonModeler-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E75A6D6017703F5500C95A8B /* JsonModeler-Info.plist */; };
+		E75A6D7A17703F5500C95A8B /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E75A6D6417703F5500C95A8B /* NSObject+JSON.m */; };
+		E75A6D7B17703F5500C95A8B /* NSObject+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = E75A6D6617703F5500C95A8B /* NSObject+Properties.m */; };
+		E75A6D7C17703F5500C95A8B /* NSString+PropertyKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E75A6D6817703F5500C95A8B /* NSString+PropertyKVC.m */; };
+		E75A6D7D17703F5500C95A8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E75A6D6917703F5500C95A8B /* main.m */; };
+		E75A6D7E17703F5500C95A8B /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = E75A6D6A17703F5500C95A8B /* test.json */; };
+		E75A6D7F17703F5500C95A8B /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = E75A6D6C17703F5500C95A8B /* Transaction.m */; };
+		E75A6D8017703F5500C95A8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75A6D6E17703F5500C95A8B /* ViewController.m */; };
+		E75A6D8117703F5500C95A8B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E75A6D7217703F5500C95A8B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = E75A6CF4176FA4C200C95A8B;
 			remoteInfo = Project;
+		};
+		E75A6D8317703F5500C95A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E75A6D6F17703F5500C95A8B /* JsonModeler.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37E6735C150671F20001376D;
+			remoteInfo = JsonModeler;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -61,6 +85,38 @@
 		E75A6D3D176FA6F100C95A8B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E75A6D3E176FA6F100C95A8B /* Default@2x-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x-568h.png"; sourceTree = "<group>"; };
 		E75A6D3F176FA6F100C95A8B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E75A6D4917703ED300C95A8B /* CreunaLockoutLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreunaLockoutLoader.h; sourceTree = "<group>"; };
+		E75A6D4A17703ED300C95A8B /* CreunaLockoutLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreunaLockoutLoader.m; sourceTree = "<group>"; };
+		E75A6D4B17703ED300C95A8B /* CreunaSnippets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreunaSnippets.h; sourceTree = "<group>"; };
+		E75A6D4C17703ED300C95A8B /* CreunaTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreunaTools.h; sourceTree = "<group>"; };
+		E75A6D4D17703ED300C95A8B /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		E75A6D4E17703ED300C95A8B /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		E75A6D5417703F5500C95A8B /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		E75A6D5517703F5500C95A8B /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		E75A6D5617703F5500C95A8B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E75A6D5717703F5500C95A8B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E75A6D5817703F5500C95A8B /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		E75A6D5917703F5500C95A8B /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		E75A6D5B17703F5500C95A8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E75A6D5D17703F5500C95A8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E75A6D5F17703F5500C95A8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E75A6D6017703F5500C95A8B /* JsonModeler-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JsonModeler-Info.plist"; sourceTree = "<group>"; };
+		E75A6D6117703F5500C95A8B /* JsonModeler-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JsonModeler-Prefix.pch"; sourceTree = "<group>"; };
+		E75A6D6317703F5500C95A8B /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		E75A6D6417703F5500C95A8B /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		E75A6D6517703F5500C95A8B /* NSObject+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Properties.h"; sourceTree = "<group>"; };
+		E75A6D6617703F5500C95A8B /* NSObject+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Properties.m"; sourceTree = "<group>"; };
+		E75A6D6717703F5500C95A8B /* NSString+PropertyKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PropertyKVC.h"; sourceTree = "<group>"; };
+		E75A6D6817703F5500C95A8B /* NSString+PropertyKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PropertyKVC.m"; sourceTree = "<group>"; };
+		E75A6D6917703F5500C95A8B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E75A6D6A17703F5500C95A8B /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		E75A6D6B17703F5500C95A8B /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		E75A6D6C17703F5500C95A8B /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		E75A6D6D17703F5500C95A8B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E75A6D6E17703F5500C95A8B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E75A6D6F17703F5500C95A8B /* JsonModeler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JsonModeler.xcodeproj; sourceTree = "<group>"; };
+		E75A6D7217703F5500C95A8B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		E75A6D85177040E700C95A8B /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +236,8 @@
 		E75A6D40176FA6F100C95A8B /* External */ = {
 			isa = PBXGroup;
 			children = (
+				E75A6D5117703F5500C95A8B /* CreunaRecommends */,
+				E75A6D4717703ED300C95A8B /* CreunaTools */,
 			);
 			name = External;
 			path = ../External;
@@ -207,6 +265,92 @@
 			);
 			name = Views;
 			path = Project/Views;
+			sourceTree = "<group>";
+		};
+		E75A6D4717703ED300C95A8B /* CreunaTools */ = {
+			isa = PBXGroup;
+			children = (
+				E75A6D4817703ED300C95A8B /* CreunaLockoutLoader */,
+				E75A6D4B17703ED300C95A8B /* CreunaSnippets.h */,
+				E75A6D4C17703ED300C95A8B /* CreunaTools.h */,
+				E75A6D4D17703ED300C95A8B /* NSString+MD5.h */,
+				E75A6D4E17703ED300C95A8B /* NSString+MD5.m */,
+			);
+			path = CreunaTools;
+			sourceTree = "<group>";
+		};
+		E75A6D4817703ED300C95A8B /* CreunaLockoutLoader */ = {
+			isa = PBXGroup;
+			children = (
+				E75A6D4917703ED300C95A8B /* CreunaLockoutLoader.h */,
+				E75A6D4A17703ED300C95A8B /* CreunaLockoutLoader.m */,
+			);
+			path = CreunaLockoutLoader;
+			sourceTree = "<group>";
+		};
+		E75A6D5117703F5500C95A8B /* CreunaRecommends */ = {
+			isa = PBXGroup;
+			children = (
+				E75A6D5217703F5500C95A8B /* JsonModeler */,
+				E75A6D85177040E700C95A8B /* SynthesizeSingleton.h */,
+			);
+			path = CreunaRecommends;
+			sourceTree = "<group>";
+		};
+		E75A6D5217703F5500C95A8B /* JsonModeler */ = {
+			isa = PBXGroup;
+			children = (
+				E75A6D5317703F5500C95A8B /* JsonModeler */,
+				E75A6D6F17703F5500C95A8B /* JsonModeler.xcodeproj */,
+				E75A6D7217703F5500C95A8B /* README.md */,
+			);
+			path = JsonModeler;
+			sourceTree = "<group>";
+		};
+		E75A6D5317703F5500C95A8B /* JsonModeler */ = {
+			isa = PBXGroup;
+			children = (
+				E75A6D5417703F5500C95A8B /* Account.h */,
+				E75A6D5517703F5500C95A8B /* Account.m */,
+				E75A6D5617703F5500C95A8B /* AppDelegate.h */,
+				E75A6D5717703F5500C95A8B /* AppDelegate.m */,
+				E75A6D5817703F5500C95A8B /* Customer.h */,
+				E75A6D5917703F5500C95A8B /* Customer.m */,
+				E75A6D5A17703F5500C95A8B /* InfoPlist.strings */,
+				E75A6D5C17703F5500C95A8B /* MainStoryboard_iPad.storyboard */,
+				E75A6D5E17703F5500C95A8B /* MainStoryboard_iPhone.storyboard */,
+				E75A6D6017703F5500C95A8B /* JsonModeler-Info.plist */,
+				E75A6D6117703F5500C95A8B /* JsonModeler-Prefix.pch */,
+				E75A6D6217703F5500C95A8B /* JsonModelLibrary */,
+				E75A6D6917703F5500C95A8B /* main.m */,
+				E75A6D6A17703F5500C95A8B /* test.json */,
+				E75A6D6B17703F5500C95A8B /* Transaction.h */,
+				E75A6D6C17703F5500C95A8B /* Transaction.m */,
+				E75A6D6D17703F5500C95A8B /* ViewController.h */,
+				E75A6D6E17703F5500C95A8B /* ViewController.m */,
+			);
+			path = JsonModeler;
+			sourceTree = "<group>";
+		};
+		E75A6D6217703F5500C95A8B /* JsonModelLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				E75A6D6317703F5500C95A8B /* NSObject+JSON.h */,
+				E75A6D6417703F5500C95A8B /* NSObject+JSON.m */,
+				E75A6D6517703F5500C95A8B /* NSObject+Properties.h */,
+				E75A6D6617703F5500C95A8B /* NSObject+Properties.m */,
+				E75A6D6717703F5500C95A8B /* NSString+PropertyKVC.h */,
+				E75A6D6817703F5500C95A8B /* NSString+PropertyKVC.m */,
+			);
+			path = JsonModelLibrary;
+			sourceTree = "<group>";
+		};
+		E75A6D7017703F5500C95A8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75A6D8417703F5500C95A8B /* JsonModeler.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +416,12 @@
 			mainGroup = E75A6CEC176FA4C200C95A8B;
 			productRefGroup = E75A6CF6176FA4C200C95A8B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E75A6D7017703F5500C95A8B /* Products */;
+					ProjectRef = E75A6D6F17703F5500C95A8B /* JsonModeler.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E75A6CF4176FA4C200C95A8B /* Project */,
@@ -280,16 +430,32 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		E75A6D8417703F5500C95A8B /* JsonModeler.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = JsonModeler.app;
+			remoteRef = E75A6D8317703F5500C95A8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		E75A6CF3176FA4C200C95A8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75A6D7817703F5500C95A8B /* MainStoryboard_iPhone.storyboard in Resources */,
 				E75A6D0F176FA4C200C95A8B /* Main_iPad.storyboard in Resources */,
+				E75A6D7617703F5500C95A8B /* InfoPlist.strings in Resources */,
 				E75A6D14176FA4C200C95A8B /* Images.xcassets in Resources */,
+				E75A6D8117703F5500C95A8B /* README.md in Resources */,
 				E75A6D0C176FA4C200C95A8B /* Main_iPhone.storyboard in Resources */,
+				E75A6D7E17703F5500C95A8B /* test.json in Resources */,
+				E75A6D7917703F5500C95A8B /* JsonModeler-Info.plist in Resources */,
 				E75A6D03176FA4C200C95A8B /* InfoPlist.strings in Resources */,
 				E75A6D42176FA6F100C95A8B /* Default@2x-568h.png in Resources */,
+				E75A6D7717703F5500C95A8B /* MainStoryboard_iPad.storyboard in Resources */,
 				E75A6D43176FA6F100C95A8B /* Default@2x.png in Resources */,
 				E75A6D41176FA6F100C95A8B /* Default.png in Resources */,
 			);
@@ -310,9 +476,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75A6D8017703F5500C95A8B /* ViewController.m in Sources */,
 				E75A6D12176FA4C200C95A8B /* ViewController.m in Sources */,
 				E75A6D09176FA4C200C95A8B /* AppDelegate.m in Sources */,
+				E75A6D7F17703F5500C95A8B /* Transaction.m in Sources */,
+				E75A6D7B17703F5500C95A8B /* NSObject+Properties.m in Sources */,
+				E75A6D7C17703F5500C95A8B /* NSString+PropertyKVC.m in Sources */,
+				E75A6D5017703ED300C95A8B /* NSString+MD5.m in Sources */,
+				E75A6D7317703F5500C95A8B /* Account.m in Sources */,
+				E75A6D4F17703ED300C95A8B /* CreunaLockoutLoader.m in Sources */,
 				E75A6D05176FA4C200C95A8B /* main.m in Sources */,
+				E75A6D7417703F5500C95A8B /* AppDelegate.m in Sources */,
+				E75A6D7A17703F5500C95A8B /* NSObject+JSON.m in Sources */,
+				E75A6D7D17703F5500C95A8B /* main.m in Sources */,
+				E75A6D7517703F5500C95A8B /* Customer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +542,30 @@
 				E75A6D24176FA4C200C95A8B /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E75A6D5A17703F5500C95A8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75A6D5B17703F5500C95A8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E75A6D5C17703F5500C95A8B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75A6D5D17703F5500C95A8B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E75A6D5E17703F5500C95A8B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75A6D5F17703F5500C95A8B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -525,6 +726,7 @@
 				E75A6D2C176FA4C200C95A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E75A6D2D176FA4C200C95A8B /* Build configuration list for PBXNativeTarget "ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +735,7 @@
 				E75A6D2F176FA4C200C95A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,11 +11,6 @@
 
 @interface CreunaLockoutLoader : NSObject
 
-@property (strong, nonatomic) UIWindow* overlayWindow;
-@property (strong, nonatomic) UIView* lockoutView;
-@property (strong, nonatomic) UIActivityIndicatorView* spinner;
-@property (strong, nonatomic) UIView* gradientBackground;
-
 + (void) presentInView:(UIView*)view;
 + (void) presentInOverlayWindow;
 + (void) dismiss;

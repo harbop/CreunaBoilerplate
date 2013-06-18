@@ -18,6 +18,15 @@
 }
 @end
 
+@interface CreunaLockoutLoader ()
+
+@property (strong, nonatomic) UIWindow* overlayWindow;
+@property (strong, nonatomic) UIView* lockoutView;
+@property (strong, nonatomic) UIActivityIndicatorView* spinner;
+@property (strong, nonatomic) UIView* gradientBackground;
+
+@end
+
 @implementation CreunaLockoutLoader
 
 @synthesize overlayWindow = _overlayWindow;
