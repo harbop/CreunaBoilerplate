@@ -3,7 +3,7 @@
 //  Drive
 //
 //  Created by ml on 11/28/12.
-//  Copyright (c) 2012 Q8 - Kuwait Petroleum (Danmark) A/S. All rights reserved.
+//  Copyright (c) 2013 Creuna Danmark. All rights reserved.
 //
 
 #import "NSString+MD5.h"

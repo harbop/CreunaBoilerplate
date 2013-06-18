@@ -3,7 +3,7 @@
 //  Creuna
 //
 //  Created by Kåre Harbo Poulsen on 10/12/12.
-//  Copyright (c) 2012 Creuna. All rights reserved.
+//  Copyright (c) 2013 Creuna Danmark. All rights reserved.
 //
 
 #pragma mark LOGGING

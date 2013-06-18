@@ -3,7 +3,7 @@
 //  Drive
 //
 //  Created by Kåre Harbo Poulsen on 10/15/12.
-//  Copyright (c) 2012 Q8 - Kuwait Petroleum (Danmark) A/S. All rights reserved.
+//  Copyright (c) 2013 Creuna Danmark. All rights reserved.
 //
 
 #ifndef Drive_CreunaSnippets_h
